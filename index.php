@@ -10,11 +10,28 @@
     <script src="https://kit.fontawesome.com/01b4b6f929.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
+    <!-- Navigation bar begins -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navigation bar ends -->
 
     <!-- Welcome section begins -->
 
-    <section id="welcome-section" class="welcome-section bg-secondary text-center">
-        <h1 class="intro-message text-light">Hey, I am Jeff Ng'ang'a <br> a software engineer</h1>
+    <section id="welcome-section" class="welcome-section">
+        <h1 class="intro-message text-light">Hey, I am Jeff Ng'ang'a</h1>
+        <p class="my-title text-warning fs-3">a software engineer</p>
     </section>
 
     <!-- Welcome section ends -->

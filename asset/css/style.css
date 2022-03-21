@@ -1,6 +1,23 @@
 /* Welcome section */
 
 #welcome-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
+
+/* Navigation bar */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background: #fca311ff;
+    z-index: 10;
+  }
